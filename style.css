@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(197, 255, 182);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to top, #003d00, #005800, #007700,#009900);
+    color: white;
+    text-align: center;
+    min-height: 150px;
+    margin: 10px;
+    padding-top: 40px;
+
+
+}
+
+header > h1 {
+    color: white;
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-family: var(--fonte-destaque);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+header > p {
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h2{
+    font-family: 'android';
+    font-size: big;
+    color: #006600;
+    margin: 5px;
+    padding: 10px;
+}
+
+h3{
+    font-family: 'android';
+    color: #006600;
+    background-image: linear-gradient(to right, #94ff94, #b0fab0, #ebffe8,#ffffff);
+    margin: 10px;
+    padding: 5px;
+}
+
+p{
+    text-align: justify;
+    margin: 10px;
+    padding: 4px;
+}
+nav {
+    color: rgb(212, 212, 212);
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.301);
+    text-align: left;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+
+}
+nav > a {
+    color: rgb(233, 233, 233);
+    padding: 10px;
+    border-radius: 5px;
+
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.4s;
+}
+
+nav > a:hover {
+    background-color: #71d471;
+    color: #003d00;
+}
+
+main{
+    min-width: 300px;
+    max-width: 800px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main img {
+    width: 100%;    
+}
+
+main img.pequena {
+    max-width: 350px;  
+    display: block;
+    margin: auto;  
+}
+
+div.video{
+    background-color: #004100;
+    margin: 0px -10px 20px -10px;
+    padding: 25px;
+    padding-bottom: 54.6%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+section > h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    column-count: 2;
+    list-style-type: none;
+    padding: 0;
+  }
+li::before {
+    content: "✔";  /* Adiciona o símbolo ✓ antes de cada item */
+    margin-right: 10px; /* Adiciona um espaço entre o símbolo e o texto */
+  }
+footer{
+    background-color: darkgreen;
+    color: white;
+    margin: 0px;
+    padding: 5px;
+}
+footer > p {
+    text-align: center;
+}
